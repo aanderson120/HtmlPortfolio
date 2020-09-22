@@ -67,6 +67,12 @@ h1 {
         border-color: rgb(53, 36, 53);
     }
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(85, 55, 85);
+    border-color: rgb(85, 55, 85);
+}
+
 .card-img {
     max-width: 250px;
     float: left;
