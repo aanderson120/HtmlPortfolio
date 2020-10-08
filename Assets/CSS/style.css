@@ -112,7 +112,7 @@ p {
     max-width: 350px;
     float: left;
     opacity: 100%;
-    /* margin: 1%; */
+    margin: 1%;
 }
 
 .card-body {
