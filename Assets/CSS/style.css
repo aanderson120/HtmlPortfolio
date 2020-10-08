@@ -1,6 +1,7 @@
 * {
     font-family: 'Dosis', sans-serif;
 }
+
 body {
     background-image: url(../images/02.jpg);
     background-size: cover;
@@ -60,8 +61,7 @@ h1 {
 }
 
 p {
-    color: black;
-}
+    color: black;}
 
 /* body */
 
@@ -73,15 +73,27 @@ p {
     background-color: rgb(133, 126, 123);
     opacity: 90%;
     padding: 14px;
+    align-content: center;
     }
+
+.resume {
+    margin: 2%;
+    max-width: 408px;
+    min-height: 500px;
+    max-height: 900px;
+    background-color: rgb(133, 126, 123);
+    opacity: 90%;
+    padding: 14px;
+    }    
 
 .container-folio {
     margin: 2%;
     margin-bottom: 15%;
     max-width: 800px;
-    height: 1127px;
+    height: 1147px;
     background-color: rgb(133, 126, 123);
     opacity: 90%;
+
     }
 
 .btn-primary {
@@ -100,19 +112,29 @@ p {
     max-width: 350px;
     float: left;
     opacity: 100%;
+    /* margin: 1%; */
 }
 
 .card-body {
     float: left;
 }
 
+/* socials */
+
 .fa-linkedin-square {
     color: #fff;
+    float: right;
 }
 
 .fa-envelope-o {
-    color: #fff;   
+    color: #fff;  
+    float: right;
 }
+
+.fa-github {
+    float: right;
+}
+
 .socials {
     margin-top: 5%;
     color: rgb(158, 17, 95);
@@ -152,12 +174,12 @@ footer {
     background-color: rgb(133, 126, 123);
 }
 
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 801px) {
 
     .container-folio {
         margin: 2%;
         margin-bottom: 15%;
-        max-width: 800px;
-        height: 1550px;
+        max-width: 415px;
+        height: 1708px;
     }
 }
