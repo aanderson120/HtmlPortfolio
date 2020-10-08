@@ -1,6 +1,8 @@
 # Portfolio
 
-*Deployed Site (https://aanderson120.github.io/Portfolio/)
+*Deployed Site https://aanderson120.github.io/Portfolio/
+
+![index](./assets/images/portfolio.png)
 
 ## Description
 * Start development of a professional portfolio
