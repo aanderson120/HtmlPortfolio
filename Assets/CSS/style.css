@@ -15,7 +15,7 @@ body {
 
 /* links */
 .navbar-light .navbar-nav .nav-link:link {
-    color: rgb(53, 36, 53);
+    color: rgb(39, 19, 46);
   }
   
   .navbar-light .navbar-nav .nav-link:visited {
@@ -28,11 +28,11 @@ body {
   }
   
   .navbar-light .navbar-nav .nav-link:active {
-    color: #832965;
+    color: rgb(184, 53, 103);
   }
 
   a:link {
-    color: rgb(53, 36, 53);
+    color: rgb(39, 19, 46);
   }
   
   a:visited {
@@ -45,18 +45,18 @@ body {
   }
   
   a:active {
-    color: #832965;
+    color: rgb(184, 53, 103);
   }
 
 /* text*/
 
 h3 {
-    color: rgb(158, 17, 95);
+    color: rgb(109, 9, 52);
     padding: 1%;
 }
 
 h1 {
-    color: rgb(158, 17, 95);
+    color: rgb(109, 9, 52);
     text-align: left;
 }
 
@@ -98,12 +98,12 @@ p {
 
 .btn-primary {
         color: honeydew;
-        background-color: rgb(158, 17, 95);
-        border-color: rgb(158, 17, 95);
+        background-color: rgb(109, 9, 52);
+        border-color: rgb(109, 9, 52);
     }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-    color: #fff;
+    color: rgb(255, 255, 255);
     background-color: rgb(85, 55, 85);
     border-color: rgb(85, 55, 85);
 }
@@ -122,12 +122,12 @@ p {
 /* socials */
 
 .fa-linkedin-square {
-    color: #fff;
+    color: rgb(255, 255, 255);
     float: right;
 }
 
 .fa-envelope-o {
-    color: #fff;  
+    color: rgb(255, 255, 255);  
     float: right;
 }
 
@@ -136,9 +136,9 @@ p {
 }
 
 button {
-    color: #fff;
-    background-color: rgb(158, 17, 95);
-    border-color: rgb(158, 17, 95);
+    color: rgb(255, 255, 255);
+    background-color: rgb(164, 38, 85);
+    border-color: rgb(164, 38, 85);
     height: 30px;
 }
 
@@ -153,7 +153,7 @@ section {
     width: 100%;
     bottom: 50px;
     left: -1%;
-    background-color: rgb(196, 95, 2);
+    background-color: rgb(209, 123, 90);
 }
 
 footer {
